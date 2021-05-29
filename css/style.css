@@ -1,0 +1,98 @@
+
+/*
+Template Name: HOT GADGETS
+Template URI: https://wordpress.org/themes/twentytwentyone/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
+Requires at least: 5.3
+Tested up to: 5.6
+Requires PHP: 5.6
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwentyone
+Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+Twenty Twenty-One WordPress Theme, (C) 2020 WordPress.org
+Twenty Twenty-One is distributed under the terms of the GNU GPL.
+*/
+/* default css */
+html {
+    scroll-behavior: smooth;
+  }
+a{
+    text-decoration: none;
+}
+
+.buy_btn_effect {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid transparent;
+    transition: .5s;
+}
+.buy_btn_effect:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    transition: .5s;
+}
+.buy_btn_effect span {
+	padding-left: 5px;
+}
+
+section{
+    /* padding: 50px 0; */
+    margin: 50px 0;
+}
+.carousel-control-next, .carousel-control-prev{
+    display: none;
+}
+.panda_slider:hover .carousel-control-next{
+    display: block;
+    transition: 1.5s;
+}
+.panda_slider:hover .carousel-control-prev{
+    display: block;
+    transition: 1.5s;
+}
+
+
+.card{
+    box-shadow: 0px 0px 10px #ddd;
+    border: none;
+}
+
+/* Navigation Header */
+
+.panda_slider{
+    background-image:linear-gradient(90deg, #08f4c4, #ffcb1b), url("../images/bg-1.png"), url('../images/bg-2.png');
+    background-size: auto;
+    background-position: center center, left bottom;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+    margin: 0;
+    padding: 100px 0;
+}
+/* Navigation Header */
+.navbar-brand img{
+    width: 150px;
+}
+
+/* ---------------------- Responsive Media Queries ---------------------------- */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .card{
+        margin-bottom: 30px;
+    }
+    .card img{
+       width: 80%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { ... }
